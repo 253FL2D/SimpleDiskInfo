@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
 	while (TRUE) {
 		y = 5;
 		titleDraw();
-		int menuCode = menuDraw(45, 20);
+		int menuCode = menuDraw(51, 20);
 		if (menuCode == 0) {
 			// Execute 1
 			system("cls");
